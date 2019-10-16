@@ -1,35 +1,44 @@
-.header{
+.header {
     height: 40px;
     font-size: 12px;
     color: #b0b0b0;
     background: #333333;
 }
 
-.header-container{
+.header-container {
     margin: 0 auto;
 }
 
-.header-container li{
+.header-container li {
     list-style: none;
     display: inline-block;
 }
 
-.header-container li a{
+.header-container li a {
     height: 40px;
     line-height: 40px;
     color: #757575;
 }
 
-.header-container li a:hover{
+.header-container li a:hover {
     height: 40px;
     line-height: 40px;
     color: white;
 }
 
-.vertical-line{
+.vertical-line {
     width: 2px;
     height: 10px;
     background: #424242;
     margin: 5px 5px;
     vertical-align: middle;
+}
+
+.cart-text {
+    height: 40px;
+    line-height: 40px;
+}
+
+.cart-text:hover {
+    color: #ff6700;
 }
